@@ -1,5 +1,5 @@
 const isProduction = process.env.NODE_ENV === 'production';
-const domain = isProduction ? 'nuro.dev' : 'localhost:3000';
+const domain = isProduction ? 'p0u1ya.ir' : 'localhost:3000';
 const protocol = isProduction ? 'https' : 'http';
 
 /**
