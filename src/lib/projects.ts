@@ -14,11 +14,11 @@ import type { GitHubRepos, Project, ProjectPost } from '~/types';
  */
 export async function fetchProjects(): Promise<Array<Project> | null> {
 	const response = await fetch('https://api.github.com/users/p0u1ya/repos', {
-		headers: {
+		/** headers: {
 			...(process.env.GITHUB_PAT && {
 				authorization: `token ${process.env.GITHUB_PAT}`,
 			}),
-		},
+		 */
 	});
 	if (response.status !== 200) {
 		const json = (await response.json()) as {
