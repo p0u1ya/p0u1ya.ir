@@ -6,15 +6,15 @@
 	"public": true,
 	"regions": ["lhr1"],
 	"redirects": [
-		{ "source": "/cv", "destination": "https://read.cv/nuro" },
-		{ "source": "/github", "destination": "https://github.com/nurodev" },
-		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/nurodev" },
+		{ "source": "/cv", "destination": "https://read.cv/p0u1ya" },
+		{ "source": "/github", "destination": "https://github.com/p0u1ya" },
+		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/p0u1ya" },
 		{ "source": "/portfolio", "destination": "/projects" },
-		{ "source": "/resume", "destination": "https://read.cv/nuro" },
-		{ "source": "/twitter", "destination": "https://twitter.com/nurodev" },
+		{ "source": "/resume", "destination": "https://read.cv/p0u1ya" },
+		{ "source": "/twitter", "destination": "https://twitter.com/p0u1ya" },
 		{
 			"source": "/contact",
-			"destination": "https://twitter.com/direct_messages/create/nurodev"
+			"destination": "https://twitter.com/direct_messages/create/p0u1ya"
 		}
 	]
 }
