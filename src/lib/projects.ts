@@ -41,6 +41,8 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 
 	const projects: Array<Project> = json
 		.map((repo) => {
+			if (!repo.topics.includes('portfolio')) return null;
+
 			if (repo.archived) return null;
 
 			// Strip the emoji suffix from the repo description
