@@ -18,7 +18,7 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 			...(process.env.GITHUB_PAT && {
 				authorization: `token ${process.env.GITHUB_PAT}`,
 			}),
-		 
+		},
 	});
 	if (response.status !== 200) {
 		const json = (await response.json()) as {
