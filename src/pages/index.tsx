@@ -43,7 +43,7 @@ export default function HomePage(): JSX.Element {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a programmer, engaged in application security`;
+	const description = `I am a programmer, engaged in web application security`;
 
 	return (
 		<Layout.Default>
@@ -59,7 +59,7 @@ export default function HomePage(): JSX.Element {
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
 						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m Pourya, <br className="hidden sm:block" />a{' '}
-						<Pill.Standard className="mt-4">I'm Pourya, a computer enthusiast and web security aficionado</Pill.Standard>
+						<Pill.Standard className="mt-4">computer enthusiast and web security aficionado</Pill.Standard>
 					</Animate>
 
 					<Animate
